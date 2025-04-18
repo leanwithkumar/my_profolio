@@ -20,7 +20,7 @@ function Footer() {
       </div>
 
       <div className='flex justify-center'>
-      <div onClick={() => window.open('https://discord.com/users/leanwithkumar', '_blank')}
+      <div onClick={() => window.open('https://discord.gg/vYXdt7Ss', '_blank')}
 
       className='flex items-center justify-center w-15 h-15 border rounded-full border-white text-5xl p-5 hover:text-white hover:bg-[#2C2C6C] cursor-pointer transition-colors duration-300'> <BsDiscord /> </div>
       </div>

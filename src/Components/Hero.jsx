@@ -9,9 +9,15 @@ import verifyy from '../Images/verified.png'
 
 
 function Hero() {
+
   const openGmail = () => {
-    window.location.href = "mailto:mrhustle936@gmail.com";
+    const email = "mrhustle936@gmail.com";
+    const subject = encodeURIComponent("Hello!");
+    const body = encodeURIComponent("I want to connect with you.");
+  
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`, '_blank');
   };
+  
 
   const openDiscord = () => {
     window.open("https://discord.gg/vYXdt7Ss", "_blank");
